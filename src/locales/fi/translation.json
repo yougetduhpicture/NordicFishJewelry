@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "ETUSIVU",
+    "products": "TUOTTEET",
+    "about": "MEISTA",
+    "contact": "YHTEYSTIEDOT"
+  },
+  "hero": {
+    "title": "NORDIC FISH JEWELRY",
+    "subtitle": "KASINTEHTYA SUOMALAISTA MUOTOILUA"
+  },
+  "cta": {
+    "collections": "TUTUSTU KOKOELMIIMME",
+    "story": "LUE TARINAMME"
+  },
+  "brandStatement": "Pohjoisilta merilta ja suomalaisesta kasityotaidosta syntynyt Nordic Fish Jewelry tuo ajatonta muotoilua, joka ammentaa inspiraationsa luonnon tekstuureista ja epataydelllisyyden kauneudesta.",
+  "categories": {
+    "title": "KATEGORIAT",
+    "rings": "SORMUKSET",
+    "cufflinks": "KALVOSINNAPIT",
+    "necklaces": "KAULAKORUT"
+  },
+  "products": {
+    "title": "KOKOELMAMME",
+    "viewOnEtsy": "KATSO ETSYSSA"
+  },
+  "about": {
+    "heroTitle": "KORUMME",
+    "intro": "Kasintehtya mestariteoksia Helsingin sydamesta. Tehty rakkaudella ja huolella. Kierratettysta kalannahasta valmistettuja koruja, jotka on hiottu taydelllisyyteen kasvavan perheyrityksen toimesta.",
+    "craftingProcess": {
+      "title": "VALMISTUSPROSESSI",
+      "step1": "KALA",
+      "step2": "KASITYO",
+      "step3": "MYYNTI",
+      "description": "Ainutlaatuiset korumme aloittavat matkansa kalannahkoina, jotka muuten menisivat hukkaan. Huolellisen kasittelyn ja kasityotaidon kautta muunnamme nama luonnonmateriaalit upeiksi, ainutlaatuisiksi asusteiksi."
+    },
+    "sustainability": {
+      "title": "KESTAVYYS",
+      "text": "Nordic Fish Jewelryssa kestavyys on kaiken toimintamme ytimessa. Kierrattamalla elintarviketeollisuuden kalannahkoja annamme uuden elaman materiaaleille, jotka muuten heitettaisiin pois. Jokainen koru kertoo tarinan ymparistotietoisuudesta ja suomalaisesta innovaatiosta. Sitoutumisemme kestaviin kaytantoihin ulottuu koko tuotantoprosessiimme hankinnasta pakkaamiseen."
+    },
+    "whoAreWe": {
+      "title": "KEITA ME OLEMME?",
+      "anne": {
+        "name": "ANNE",
+        "bio": "Anne on Nordic Fish Jewelryn luova voima. Intohimolla kestavaan muotoiluun ja suomalaiseen kasityotaitoon han muuntaa kalannahkat kauniiksi, puettavaksi taiteeksi. Hanen taustansa muotoilussa ja syva yhteys pohjoismaiseen luontoon inspiroivat jokaista ainutlaatuista teosta."
+      },
+      "arska": {
+        "name": "ARSKA",
+        "bio": "Arska tuo asiantuntemuksensa perinteisessa suomalaisessa kalastuksessa ja materiaalien valmistelussa. Hanen tietonsa kalalajeista ja nahkojen ominaisuuksista varmistaa, etta vain parhaat materiaalit valitaan koruihimme. Yhdessa Annen kanssa han jatkaa perheen perinne luonnon kunnioittamisesta."
+      }
+    }
+  },
+  "contact": {
+    "title": "YHTEYSTIEDOT",
+    "email": "SAHKOPOSTI:",
+    "phone": "PUHELIN:",
+    "businessId": "Y-TUNNUS:",
+    "cta": "OTA ROHKEASTI YHTEYTTA!",
+    "visitUs": {
+      "title": "TULE SOVITTAMAAN KORUJA MYYMALAAMMME!",
+      "address": "Lahdepuistontie 17, Vantaa, 01230",
+      "bookTime": "Varaa aika tullaksesi sovittamaan korujamme"
+    }
+  },
+  "footer": {
+    "socials": "SOSIAALINEN MEDIA",
+    "credit": "VERKKOSIVUT: RASMUS RUONAKOSKI"
+  },
+  "seo": {
+    "home": {
+      "title": "Nordic Fish Jewelry | Kasintehdyt suomalaiset korut",
+      "description": "Ainutlaatuisia kasintehtyjä koruja kierratetystä kalannahasta. Kestavaa suomalaista muotoilua pohjoisesta luonnosta."
+    },
+    "products": {
+      "title": "Kokoelmat | Nordic Fish Jewelry",
+      "description": "Tutustu ainutlaatuisiin kasintehtyjiin sormuksiin, kalvosinappeihin ja kaulakoruihin kierratetystä kalannahasta."
+    },
+    "rings": {
+      "title": "Sormukset | Nordic Fish Jewelry",
+      "description": "Loydä kasintehdyt kalannahkasormukset. Jokainen koru on ainutlaatuinen, kestävä ja tehty suomalaisella käsityötaidolla."
+    },
+    "cufflinks": {
+      "title": "Kalvosinnapit | Nordic Fish Jewelry",
+      "description": "Tyylikkäät käsintehdyt kalvosinnapit kierrätetystä kalannahasta. Täydellinen valinta kestävää luksusta arvostavalle."
+    },
+    "necklaces": {
+      "title": "Kaulakorut | Nordic Fish Jewelry",
+      "description": "Kauniit käsintehdyt kaulakorut kierrätetystä kalannahasta. Ainutlaatuinen pohjoismainen muotoilu kohtaa kestävyyden."
+    },
+    "about": {
+      "title": "Tarinamme | Nordic Fish Jewelry",
+      "description": "Lue Nordic Fish Jewelryn tarinasta ja kestävästä lähestymistavasta ainutlaatuisten korujen valmistukseen kierrätetystä kalannahasta Helsingissä."
+    },
+    "contact": {
+      "title": "Yhteystiedot | Nordic Fish Jewelry",
+      "description": "Ota yhteyttä Nordic Fish Jewelryyn. Käy myymälässämme Vantaalla tai ota yhteyttä erikoistilauksista."
+    }
+  }
+}

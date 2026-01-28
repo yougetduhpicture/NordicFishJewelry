@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "HOME",
+    "products": "PRODUCTS",
+    "about": "ABOUT",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "title": "NORDIC FISH JEWELRY",
+    "subtitle": "HANDCRAFTED FINNISH DESIGN"
+  },
+  "cta": {
+    "collections": "TO OUR COLLECTIONS",
+    "story": "LEARN ABOUT OUR STORY"
+  },
+  "brandStatement": "Born from the northern seas and Finnish craftsmanship, Nordic Fish Jewelry brings timeless design inspired by the textures of nature and the beauty of imperfection.",
+  "categories": {
+    "title": "CATEGORIES",
+    "rings": "RINGS",
+    "cufflinks": "CUFF LINKS",
+    "necklaces": "NECKLACES"
+  },
+  "products": {
+    "title": "OUR COLLECTIONS",
+    "viewOnEtsy": "VIEW ON ETSY"
+  },
+  "about": {
+    "heroTitle": "OUR JEWELRY",
+    "intro": "Handcrafted masterpieces from the heart of Helsinki. Made with love and care. Upcycled fish skin jewelry polished to perfection by a growing family business.",
+    "craftingProcess": {
+      "title": "CRAFTING PROCESS",
+      "step1": "FISH",
+      "step2": "CRAFT",
+      "step3": "SELL",
+      "description": "Our unique jewelry pieces start their journey as fish skins that would otherwise go to waste. Through careful processing and artisan craftsmanship, we transform these natural materials into stunning, one-of-a-kind accessories."
+    },
+    "sustainability": {
+      "title": "SUSTAINABILITY",
+      "text": "At Nordic Fish Jewelry, sustainability is at the heart of everything we do. By upcycling fish skins from the food industry, we give new life to materials that would otherwise be discarded. Each piece tells a story of environmental consciousness and Finnish innovation. Our commitment to sustainable practices extends throughout our entire production process, from sourcing to packaging."
+    },
+    "whoAreWe": {
+      "title": "WHO ARE WE?",
+      "anne": {
+        "name": "ANNE",
+        "bio": "Anne is the creative force behind Nordic Fish Jewelry. With a passion for sustainable design and Finnish craftsmanship, she transforms fish skins into beautiful, wearable art. Her background in design and deep connection to Nordic nature inspire each unique piece."
+      },
+      "arska": {
+        "name": "ARSKA",
+        "bio": "Arska brings expertise in traditional Finnish fishing and material preparation. His knowledge of fish species and skin characteristics ensures that only the finest materials are selected for our jewelry. Together with Anne, he continues a family tradition of respecting nature."
+      }
+    }
+  },
+  "contact": {
+    "title": "CONTACT",
+    "email": "E-MAIL:",
+    "phone": "PHONE:",
+    "businessId": "BUSINESS ID:",
+    "cta": "FEEL FREE TO CONTACT US!",
+    "visitUs": {
+      "title": "COME TRY ON THE JEWELRY AT OUR SHOP!",
+      "address": "Lahdepuistontie 17, Vantaa, 01230",
+      "bookTime": "Book a time to come try our jewelry at our location"
+    }
+  },
+  "footer": {
+    "socials": "SOCIALS",
+    "credit": "WEBSITE BY RASMUS RUONAKOSKI"
+  },
+  "seo": {
+    "home": {
+      "title": "Nordic Fish Jewelry | Handcrafted Finnish Design",
+      "description": "Unique handcrafted jewelry made from upcycled fish skin. Sustainable Finnish design inspired by Nordic nature."
+    },
+    "products": {
+      "title": "Collections | Nordic Fish Jewelry",
+      "description": "Explore our unique collections of handcrafted rings, cuff links, and necklaces made from upcycled fish skin."
+    },
+    "rings": {
+      "title": "Rings | Nordic Fish Jewelry",
+      "description": "Discover our handcrafted fish skin rings. Each piece is unique, sustainable, and made with Finnish craftsmanship."
+    },
+    "cufflinks": {
+      "title": "Cuff Links | Nordic Fish Jewelry",
+      "description": "Elegant handcrafted cuff links made from upcycled fish skin. Perfect for those who appreciate sustainable luxury."
+    },
+    "necklaces": {
+      "title": "Necklaces | Nordic Fish Jewelry",
+      "description": "Beautiful handcrafted necklaces featuring upcycled fish skin. Unique Nordic design meets sustainability."
+    },
+    "about": {
+      "title": "Our Story | Nordic Fish Jewelry",
+      "description": "Learn about Nordic Fish Jewelry's sustainable approach to crafting unique jewelry from upcycled fish skin in Helsinki, Finland."
+    },
+    "contact": {
+      "title": "Contact Us | Nordic Fish Jewelry",
+      "description": "Get in touch with Nordic Fish Jewelry. Visit our shop in Vantaa or contact us for custom orders."
+    }
+  }
+}

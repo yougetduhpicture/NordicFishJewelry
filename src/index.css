@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* Glacial Indifference Font */
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom Theme */
+@theme {
+  --color-cream: #F9F3E0;
+  --color-navy: #1C2F4D;
+  --color-gold: #D8BA83;
+  --color-white: #FFFFFF;
+
+  --font-family-sans: 'Glacial Indifference', system-ui, sans-serif;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Glacial Indifference', system-ui, sans-serif;
+  background-color: #F9F3E0;
+  color: #1C2F4D;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Glacial Indifference', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+/* Reset link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button base styles */
+button {
+  font-family: 'Glacial Indifference', system-ui, sans-serif;
+  cursor: pointer;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Smooth transitions */
+* {
+  transition-property: background-color, border-color, color, opacity, transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "ring-1",
+      "name": "Fish Scale Ring - Silver",
+      "nameFi": "Kalasuomusormus - Hopea",
+      "category": "rings",
+      "image": "/images/products/rings/ring-1.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "ring-2",
+      "name": "Nordic Wave Ring",
+      "nameFi": "Pohjolan Aalto Sormus",
+      "category": "rings",
+      "image": "/images/products/rings/ring-2.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "ring-3",
+      "name": "Ocean Blue Ring",
+      "nameFi": "Meren Sininen Sormus",
+      "category": "rings",
+      "image": "/images/products/rings/ring-3.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "cufflink-1",
+      "name": "Classic Fish Skin Cuff Links",
+      "nameFi": "Klassiset Kalannahka Kalvosinnapit",
+      "category": "cufflinks",
+      "image": "/images/products/cufflinks/cufflink-1.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "cufflink-2",
+      "name": "Golden Salmon Cuff Links",
+      "nameFi": "Kultainen Lohi Kalvosinnapit",
+      "category": "cufflinks",
+      "image": "/images/products/cufflinks/cufflink-2.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "cufflink-3",
+      "name": "Trout Scale Cuff Links",
+      "nameFi": "Taimensuomu Kalvosinnapit",
+      "category": "cufflinks",
+      "image": "/images/products/cufflinks/cufflink-3.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "necklace-1",
+      "name": "Baltic Sea Pendant",
+      "nameFi": "Itameri Riipus",
+      "category": "necklaces",
+      "image": "/images/products/necklaces/necklace-1.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "necklace-2",
+      "name": "Northern Light Necklace",
+      "nameFi": "Revontuli Kaulakoru",
+      "category": "necklaces",
+      "image": "/images/products/necklaces/necklace-2.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    },
+    {
+      "id": "necklace-3",
+      "name": "Finnish Nature Pendant",
+      "nameFi": "Suomen Luonto Riipus",
+      "category": "necklaces",
+      "image": "/images/products/necklaces/necklace-3.jpg",
+      "etsyUrl": "https://www.etsy.com/shop/NordicFishJewelry"
+    }
+  ]
+}

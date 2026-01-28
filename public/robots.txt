@@ -1,0 +1,6 @@
+# robots.txt for Nordic Fish Jewelry
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nordicfishjewelry.com/sitemap.xml
