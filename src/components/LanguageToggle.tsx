@@ -35,7 +35,7 @@ const LanguageToggle = () => {
       <img
         src={currentLang === 'fi' ? '/images/flags/en.png' : '/images/flags/fi.png'}
         alt={currentLang === 'fi' ? 'Switch to English' : 'Vaihda suomeksi'}
-        className="w-6 h-4 object-cover rounded-sm"
+        className="w-6 h-4 object-cover"
       />
       <span className="text-sm font-medium tracking-wide">
         {currentLang === 'fi' ? 'EN' : 'FI'}

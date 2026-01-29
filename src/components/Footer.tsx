@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-[1280px] mx-auto px-4 md:px-8 text-center">
         {/* Socials */}
         <div className="mb-30 mt-5">
-          <p className="text-cream text-lg font-light tracking-[0.7em] mb-4">
+          <p className="text-cream text-xl font-light tracking-[0.5em] mb-4">
             {t('footer.socials')}
           </p>
           <div className="flex items-center justify-center gap-6">
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         {/* Credit */}
-        <p className="text-cream text-sm tracking-[0.3em]">
+        <p className="text-cream text-xs tracking-[1.0em]">
           {t('footer.credit')}
         </p>
       </div>

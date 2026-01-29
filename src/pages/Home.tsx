@@ -36,7 +36,7 @@ const Home = () => {
             <img
               src="/images/hero/hero-right.jpg"
               alt="Finnish nature"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover -scale-x-100"
             />
           </div>
         </div>
@@ -45,13 +45,12 @@ const Home = () => {
         <div className="absolute inset-0 bg-navy/30" />
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center px-4">
-          <h1 className="text-white text-4xl md:text-6xl font-bold tracking-[0.15em] mb-2">
-            {t('hero.title')}
+        <div className="relative z-10 text-left px-4">
+          <h1 className="text-white text-4xl md:text-6xl font-bold tracking-[0.15em] mb-8">
+            <span className="block">NORDIC</span>
+            <span className="block">FISH</span>
+            <span className="block ">JEWELRY</span>
           </h1>
-          <p className="text-cream text-lg md:text-xl tracking-[0.2em] mb-8">
-            {t('hero.subtitle')}
-          </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
