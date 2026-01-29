@@ -4,13 +4,13 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-gold py-12">
+    <footer className="bg-gold pt-12 py-5">
       <div className="max-w-[1280px] mx-auto px-4 md:px-8 text-center">
         {/* Socials */}
-        <div className="mb-8">
-          <h3 className="text-navy text-lg tracking-[0.2em] mb-4">
+        <div className="mb-30 mt-5">
+          <p className="text-cream text-lg font-light tracking-[0.7em] mb-4">
             {t('footer.socials')}
-          </h3>
+          </p>
           <div className="flex items-center justify-center gap-6">
             {/* Etsy */}
             <a
@@ -33,7 +33,7 @@ const Footer = () => {
               className="hover:opacity-80 transition-opacity"
               aria-label="Follow us on Instagram"
             >
-              <div className="w-12 h-12 bg-cream rounded-full flex items-center justify-center border-2 border-navy">
+              <div className="w-12 h-12 bg-cream rounded-full flex items-center justify-center">
                 <svg
                   className="w-6 h-6 text-navy"
                   fill="currentColor"
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         {/* Credit */}
-        <p className="text-navy text-sm tracking-wider">
+        <p className="text-cream text-sm tracking-[0.3em]">
           {t('footer.credit')}
         </p>
       </div>

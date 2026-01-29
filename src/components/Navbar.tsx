@@ -42,16 +42,18 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link to={`${currentLang}/`} className="flex items-center gap-3">
-              <img
-                src="/images/logo/logo.png"
-                alt="Nordic Fish Jewelry Logo"
-                className="h-10 md:h-12 w-auto"
-              />
-              <div className="hidden sm:block">
-                <span className="text-gold font-bold text-lg tracking-wider">
+              <div className="py-2">
+                <img
+                  src="/images/logo/logo.png"
+                  alt="Nordic Fish Jewelry Logo"
+                  className="h-6 w-auto scale-70"
+                />
+              </div>
+              <div className="hidden sm:block leading-none">
+                <span className="block text-gold text-2xl tracking-wider">
                   NORDIC FISH
                 </span>
-                <span className="block text-gold text-xs tracking-[0.2em]">
+                <span className="block text-gold text-sm tracking-[0.4em] -mt-1">
                   JEWELRY
                 </span>
               </div>
