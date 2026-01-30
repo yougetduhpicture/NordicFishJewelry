@@ -22,51 +22,29 @@ const Home = () => {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        {/* Split Background Images */}
-        <div className="absolute inset-0 flex">
-          <div className="w-1/2 h-full">
-            <img
-              src="/images/hero/hero-left.jpg"
-              alt="Nordic scenery"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="w-1/2 h-full">
-            <img
-              src="/images/hero/hero-right.jpg"
-              alt="Finnish nature"
-              className="w-full h-full object-cover -scale-x-100"
-            />
-          </div>
-        </div>
+      <section className="w-full overflow-hidden">
+        <img
+          src="/images/hero/HERO WITH TEXT.png"
+          alt="Nordic Fish Jewelry"
+          className="min-[1000px]:w-full min-[1000px]:h-auto w-auto h-[250px] sm:h-[300px] md:h-[350px] max-w-none object-cover object-center scale-105 origin-center"
+        />
+      </section>
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-navy/30" />
-
-        {/* Hero Content */}
-        <div className="relative z-10 text-left px-4">
-          <h1 className="text-white text-4xl md:text-6xl font-bold tracking-[0.15em] mb-8">
-            <span className="block">NORDIC</span>
-            <span className="block">FISH</span>
-            <span className="block ">JEWELRY</span>
-          </h1>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={`${currentLang}/products`}
-              className="bg-gold text-navy px-8 py-3 tracking-wider font-medium hover:bg-cream transition-colors"
-            >
-              {t('cta.collections')}
-            </Link>
-            <Link
-              to={`${currentLang}/about`}
-              className="bg-transparent border-2 border-gold text-gold px-8 py-3 tracking-wider font-medium hover:bg-gold hover:text-navy transition-colors"
-            >
-              {t('cta.story')}
-            </Link>
-          </div>
+      {/* CTA Buttons */}
+      <section className="bg-cream py-8">
+        <div className="w-[90%] md:w-[80%] lg:w-[50%] mx-auto flex flex-row gap-4">
+          <Link
+            to={`${currentLang}/products`}
+            className="text-4xl bg-gold text-cream flex-1 aspect-square flex items-end justify-start p-4 tracking-wider hover:opacity-80 transition-opacity"
+          >
+            {t('cta.collections')}
+          </Link>
+          <Link
+            to={`${currentLang}/about`}
+            className="text-4xl bg-gold text-cream flex-1 aspect-square flex items-end justify-start p-4 tracking-wider hover:opacity-80 transition-opacity"
+          >
+            {t('cta.story')}
+          </Link>
         </div>
       </section>
 
