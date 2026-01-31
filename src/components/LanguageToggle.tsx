@@ -29,17 +29,15 @@ const LanguageToggle = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="flex items-center gap-2 text-gold hover:text-white transition-colors"
+      className="language-toggle"
       aria-label={`Switch to ${currentLang === 'fi' ? 'English' : 'Finnish'}`}
     >
       <img
         src={currentLang === 'fi' ? '/images/flags/en.png' : '/images/flags/fi.png'}
         alt={currentLang === 'fi' ? 'Switch to English' : 'Vaihda suomeksi'}
-        className="w-6 h-4 object-cover"
+        className="language-toggle__flag"
       />
-      <span className="text-sm font-medium tracking-wide">
-        {currentLang === 'fi' ? 'EN' : 'FI'}
-      </span>
+      <span className="language-toggle__btn">{currentLang === 'fi' ? 'EN' : 'FI'}</span>
     </button>
   );
 };

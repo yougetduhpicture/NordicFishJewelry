@@ -1,0 +1,140 @@
+/* Typography Styles */
+
+/* Fonts */
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+/* Page Titles */
+.page-title {
+  color: var(--color-gold);
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .page-title {
+    font-size: 32px;
+  }
+}
+
+/* Section Titles */
+.section-title {
+  color: var(--color-gold);
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 32px;
+  }
+}
+
+/* Text Colors */
+.text-navy {
+  color: var(--color-navy);
+}
+
+.text-cream {
+  color: var(--color-cream);
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+/* Text Alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Body Text */
+.body-text {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .body-text {
+    font-size: 18px;
+  }
+}
+
+.body-text--large {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .body-text--large {
+    font-size: 70px;
+  }
+}
+
+/* Italic Text */
+.text-italic {
+  font-style: italic;
+}
+
+/* Brand Statement */
+.brand-statement {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .brand-statement {
+    padding: 0 0px;
+  }
+}
+
+.brand-statement__text {
+  color: var(--color-gold);
+  font-size: 50px;
+  line-height: 0.8;
+
+}
+
+@media (min-width: 768px) {
+  .brand-statement__text {
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}

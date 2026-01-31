@@ -33,75 +33,51 @@ const Navbar = () => {
 
   return (
     <>
-      <nav
-        className={`fixed top-0 left-0 right-0 z-50 bg-navy transition-shadow duration-300 ${
-          isScrolled ? 'shadow-lg' : ''
-        }`}
-      >
-        <div className="max-w-[1280px] mx-auto px-4 md:px-8">
-          <div className="flex items-center justify-between h-16 md:h-20">
-            {/* Logo */}
-            <Link to={`${currentLang}/`} className="flex items-center gap-3">
-              <div className="py-2">
-                <img
-                  src="/images/logo/logo.png"
-                  alt="Nordic Fish Jewelry Logo"
-                  className="h-6 w-auto scale-70"
-                />
-              </div>
-              <div className="hidden sm:block leading-none">
-                <span className="block text-gold text-2xl tracking-wider">
-                  NORDIC FISH
-                </span>
-                <span className="block text-gold text-sm tracking-[0.4em] -mt-1">
-                  JEWELRY
-                </span>
-              </div>
-            </Link>
-
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-8">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.path}
-                  to={link.path}
-                  className={`text-gold hover:text-white tracking-wider text-sm font-medium transition-colors ${
-                    location.pathname === link.path ? 'text-white' : ''
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <LanguageToggle />
+      <nav className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
+        <div className="navbar__inner">
+          {/* Logo */}
+          <Link to={`${currentLang}/`} className="navbar__logo">
+            <div className="navbar__logo-icon">
+              <img
+                src="/images/logo/logo.png"
+                alt="Nordic Fish Jewelry Logo"
+                className="navbar__logo-image"
+              />
             </div>
+            <div className="navbar__logo-text">
+              <span className="navbar__nordic-fish">NORDIC FISH</span>
+              <span className="navbar__jewelry">JEWELRY</span>
+            </div>
+          </Link>
 
-            {/* Mobile Menu Button */}
-            <div className="flex md:hidden items-center gap-4">
-              <LanguageToggle />
-              <button
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="text-gold p-2"
-                aria-label="Toggle menu"
+          {/* Desktop Navigation */}
+          <div className="navbar__nav">
+            {navLinks.map((link) => (
+              <Link
+                key={link.path}
+                to={link.path}
+                className={`navbar__link ${location.pathname === link.path ? 'navbar__link--active' : ''}`}
               >
-                <div className="w-6 h-5 flex flex-col justify-between">
-                  <span
-                    className={`h-0.5 bg-gold transition-transform origin-left ${
-                      isMobileMenuOpen ? 'rotate-45 translate-x-px' : ''
-                    }`}
-                  />
-                  <span
-                    className={`h-0.5 bg-gold transition-opacity ${
-                      isMobileMenuOpen ? 'opacity-0' : ''
-                    }`}
-                  />
-                  <span
-                    className={`h-0.5 bg-gold transition-transform origin-left ${
-                      isMobileMenuOpen ? '-rotate-45 translate-x-px' : ''
-                    }`}
-                  />
-                </div>
-              </button>
+                {link.label}
+              </Link>
+            ))}
+            <LanguageToggle />
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="navbar__actions">
+            <div className="navbar__mobile-toggle">
+              <LanguageToggle />
             </div>
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className={`hamburger ${isMobileMenuOpen ? 'hamburger--open' : ''}`}
+              aria-label="Toggle menu"
+            >
+              <span className="hamburger__line" />
+              <span className="hamburger__line" />
+              <span className="hamburger__line" />
+            </button>
           </div>
         </div>
       </nav>
@@ -114,7 +90,7 @@ const Navbar = () => {
       />
 
       {/* Spacer for fixed navbar */}
-      <div className="h-16 md:h-20" />
+      <div className="navbar-spacer" />
     </>
   );
 };

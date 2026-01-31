@@ -1,0 +1,146 @@
+/* Layout Styles */
+
+/* Main Layout */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__main {
+  flex: 1;
+} 
+
+/* Containers */
+.container {
+  width: 100%;
+  max-width: var(--container-xl);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.container--narrow {
+  max-width: var(--container-md);
+}
+
+.container--content {
+  max-width: var(--container-content);
+}
+
+/* Sections */
+.section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: var(--color-cream);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+.section--full-height {
+  min-height: calc(100vh - 256px);
+}
+
+/* Grids */
+.grid {
+  display: grid;
+  gap: 32px;
+}
+
+.grid--products {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .grid--products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid--products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid--two-col {
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .grid--two-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid--narrow {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Flexbox Utilities */
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex--gap-sm {
+  gap: 8px;
+}
+
+.flex--gap-md {
+  gap: 16px;
+}
+
+.flex--gap-lg {
+  gap: 32px;
+}
+
+/* Spacing */
+.mb-sm {
+  margin-bottom: 8px;
+}
+
+.mb-md {
+  margin-bottom: 16px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
+.mb-xl {
+  margin-bottom: 48px;
+}

@@ -19,23 +19,15 @@ const Cufflinks = () => {
         path={`${currentLang}/products/cufflinks`}
       />
 
-      <section className="py-16 md:py-24 bg-cream min-h-[calc(100vh-16rem)]">
-        <div className="max-w-[1280px] mx-auto px-4 md:px-8">
-          <h1 className="text-navy text-3xl md:text-4xl font-bold tracking-[0.15em] text-center mb-12">
-            {t('categories.cufflinks')}
-          </h1>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section className="section section--full-height">
+        <div className="container">
+          <h1 className="page-title">{t('categories.cufflinks')}</h1>
+          <div className="grid grid--products">
             {cufflinks.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
-
-          {cufflinks.length === 0 && (
-            <p className="text-navy text-center text-lg">
-              Products coming soon...
-            </p>
-          )}
+          {cufflinks.length === 0 && <p className="empty-message">Products coming soon...</p>}
         </div>
       </section>
     </>

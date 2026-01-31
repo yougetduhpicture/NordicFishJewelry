@@ -20,19 +20,12 @@ const Products = () => {
         path={`${currentLang}/products`}
       />
 
-      <section className="py-16 md:py-24 bg-cream min-h-[calc(100vh-16rem)]">
-        <div className="max-w-[1280px] mx-auto px-4 md:px-8">
-          <h1 className="text-navy text-3xl md:text-4xl font-bold tracking-[0.15em] text-center mb-12">
-            {t('products.title')}
-          </h1>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
+      <section className="section section--full-height">
+        <div className="container">
+          <h1 className="page-title">{t('products.title')}</h1>
+          <div className="grid grid--products grid--narrow">
             {categories.map((category) => (
-              <CategoryCard
-                key={category.id}
-                category={category.id}
-                image={category.image}
-              />
+              <CategoryCard key={category.id} category={category.id} image={category.image} />
             ))}
           </div>
         </div>

@@ -10,13 +10,13 @@ const ProductCard = ({ product }: ProductCardProps) => {
   const productName = i18n.language === 'fi' ? product.nameFi : product.name;
 
   return (
-    <div className="group border-4 border-navy overflow-hidden bg-white">
+    <div className="card">
       {/* Image */}
-      <div className="aspect-square overflow-hidden">
+      <div className="card__image-wrapper">
         <img
           src={product.image}
           alt={productName}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="card__image"
           loading="lazy"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
@@ -26,15 +26,13 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
 
       {/* Content */}
-      <div className="bg-navy p-4">
-        <h3 className="text-gold text-center text-sm tracking-wider font-medium mb-3">
-          {productName}
-        </h3>
+      <div className="card__content">
+        <h3 className="card__title">{productName}</h3>
         <a
           href={product.etsyUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full bg-gold text-navy text-center py-2 px-4 text-sm tracking-wider font-medium hover:bg-cream transition-colors"
+          className="btn btn--primary"
         >
           {t('products.viewOnEtsy')}
         </a>

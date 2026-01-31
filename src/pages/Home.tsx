@@ -22,55 +22,42 @@ const Home = () => {
       />
 
       {/* Hero Section */}
-      <section className="w-full overflow-hidden">
+      <section className="hero">
         <img
           src="/images/hero/HERO WITH TEXT.png"
           alt="Nordic Fish Jewelry"
-          className="min-[1000px]:w-full min-[1000px]:h-auto w-auto h-[250px] sm:h-[300px] md:h-[350px] max-w-none object-cover object-center scale-105 origin-center"
+          className="hero__image"
         />
       </section>
 
       {/* CTA Buttons */}
-      <section className="bg-cream py-8">
-        <div className="w-[90%] md:w-[80%] lg:w-[50%] mx-auto flex flex-row gap-4">
-          <Link
-            to={`${currentLang}/products`}
-            className="text-4xl bg-gold text-cream flex-1 aspect-square flex items-end justify-start p-4 tracking-wider hover:opacity-80 transition-opacity"
-          >
-            {t('cta.collections')}
-          </Link>
-          <Link
-            to={`${currentLang}/about`}
-            className="text-4xl bg-gold text-cream flex-1 aspect-square flex items-end justify-start p-4 tracking-wider hover:opacity-80 transition-opacity"
-          >
-            {t('cta.story')}
-          </Link>
+      <section className="cta-section">
+        <div className="cta-section__inner">
+          <div className="cta-buttons">
+            <Link to={`${currentLang}/products`} className="cta-btn">
+              {t('cta.collections')}
+            </Link>
+            <Link to={`${currentLang}/about`} className="cta-btn">
+              {t('cta.story')}
+            </Link>
+          </div>
         </div>
       </section>
 
       {/* Brand Statement */}
-      <section className="py-16 md:py-24 bg-cream">
-        <div className="max-w-3xl mx-auto px-4 md:px-8 text-center">
-          <p className="text-navy text-lg md:text-xl leading-relaxed italic">
-            {t('brandStatement')}
-          </p>
+      <section className="section">
+        <div className="brand-statement">
+          <h3 className="brand-statement__text">{t('brandStatement')}</h3>
         </div>
       </section>
 
       {/* Categories Section */}
-      <section className="py-16 md:py-24 bg-cream">
-        <div className="max-w-[1280px] mx-auto px-4 md:px-8">
-          <h2 className="text-navy text-3xl md:text-4xl font-bold tracking-[0.15em] text-center mb-12">
-            {t('categories.title')}
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section className="section">
+        <div className="container container--content">
+          <h2 className="section-title">{t('categories.title')}</h2>
+          <div className="grid grid--products">
             {categories.map((category) => (
-              <CategoryCard
-                key={category.id}
-                category={category.id}
-                image={category.image}
-              />
+              <CategoryCard key={category.id} category={category.id} image={category.image} />
             ))}
           </div>
         </div>

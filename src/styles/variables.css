@@ -1,0 +1,24 @@
+/* Design Tokens */
+:root {
+  /* Colors */
+  --color-cream: #F9F3E0;
+  --color-navy: #1C2F4D;
+  --color-gold: #D8BA83;
+  --color-white: #FFFFFF;
+  --color-etsy-orange: #F1641E;
+  --color-gray-light: #E5E7EB;
+
+  /* Typography */
+  --font-family: 'Glacial Indifference', system-ui, sans-serif;
+
+  /* Container Widths */
+  --container-sm: 672px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-content: 1100px;
+
+  /* Transitions */
+  --transition-fast: 200ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+}

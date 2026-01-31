@@ -18,25 +18,20 @@ const CategoryCard = ({ category, image }: CategoryCardProps) => {
   };
 
   return (
-    <Link
-      to={`${currentLang}/products/${category}`}
-      className="group block relative overflow-hidden border-4 border-navy"
-    >
+    <Link to={`${currentLang}/products/${category}`} className="card card--category">
       {/* Image */}
-      <div className="aspect-square overflow-hidden">
+      <div className="card__image-wrapper">
         <img
           src={image}
           alt={categoryLabels[category]}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="card__image"
           loading="lazy"
         />
       </div>
 
       {/* Label */}
-      <div className="bg-navy py-4 px-6">
-        <h3 className="text-gold text-center text-lg tracking-[0.15em] font-medium">
-          {categoryLabels[category]}
-        </h3>
+      <div className="card__content">
+        <h3 className="card__title card__title--category">{categoryLabels[category]}</h3>
       </div>
     </Link>
   );
