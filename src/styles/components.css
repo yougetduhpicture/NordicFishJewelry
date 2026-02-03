@@ -384,6 +384,50 @@
   margin-bottom: 0;
 }
 
+/* Category Card (with overlay) */
+.category-card {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.category-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.category-card:hover .category-card__image {
+  transform: scale(1.05);
+}
+
+.category-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(28, 47, 77, 0.8) 0%, rgba(28, 47, 77, 0.2) 50%, transparent 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 24px;
+}
+
+.category-card__title {
+  color: var(--color-gold);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .category-card__title {
+    font-size: 28px;
+  }
+}
+
 /* ==================== */
 /* BUTTONS              */
 /* ==================== */
@@ -540,7 +584,7 @@
 
 @media (min-width: 1024px) {
   .cta-section__inner {
-    width: 50%;
+    width: 66%;
   }
 }
 

@@ -39,6 +39,14 @@ h6 {
   margin-bottom: 48px;
 }
 
+@media (min-width: 768px) {
+.page-title {
+    font-size: 100px;
+    letter-spacing: 50px;
+
+  }
+}
+
 /* Section Titles */
 .section-title {
   color: var(--color-gold);
@@ -51,13 +59,8 @@ h6 {
 
 
 @media (min-width: 768px) {
-  .page-title {
-    font-size: 100px;
-    letter-spacing: 50px;
-
-  }
   .section-title {
-    font-size: 170px;
+    font-size: 150px;
     letter-spacing: 0px;
     text-align: center;
   }
@@ -110,7 +113,7 @@ h6 {
 
 /* Brand Statement */
 .brand-statement {
-  max-width: 50%;
+  max-width: 80%;
   margin: 0 auto;
   padding: 0 16px;
   font-size: 100px;
@@ -119,12 +122,14 @@ h6 {
 @media (min-width: 768px) {
   .brand-statement {
     padding: 0 0px;
+    width: 66%;
+    align-content: center;
   }
 }
 
 .brand-statement__text {
   color: var(--color-gold);
-  font-size: 9 80px;
+  font-size: 9 60px;
   line-height: 0.9;
   letter-spacing: 1px;
   text-align: left;

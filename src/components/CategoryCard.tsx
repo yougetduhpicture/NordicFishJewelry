@@ -18,20 +18,15 @@ const CategoryCard = ({ category, image }: CategoryCardProps) => {
   };
 
   return (
-    <Link to={`${currentLang}/products/${category}`} className="card card--category">
-      {/* Image */}
-      <div className="card__image-wrapper">
-        <img
-          src={image}
-          alt={categoryLabels[category]}
-          className="card__image"
-          loading="lazy"
-        />
-      </div>
-
-      {/* Label */}
-      <div className="card__content">
-        <h3 className="card__title card__title--category">{categoryLabels[category]}</h3>
+    <Link to={`${currentLang}/products/${category}`} className="category-card">
+      <img
+        src={image}
+        alt={categoryLabels[category]}
+        className="category-card__image"
+        loading="lazy"
+      />
+      <div className="category-card__overlay">
+        <h3 className="category-card__title">{categoryLabels[category]}</h3>
       </div>
     </Link>
   );
