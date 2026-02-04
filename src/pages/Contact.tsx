@@ -17,25 +17,37 @@ const Contact = () => {
         <div className="container">
           {/* Contact Info Section */}
           <div className="contact-header">
-            <h1 className="contact-title">{t('contact.title')}</h1>
+            <h1 className="page-title">{t('contact.title')}</h1>
 
-            <div className="contact-info">
-              <p className="contact-item">
-                <span className="contact-label">{t('contact.email')}</span>{' '}
-                <a href="mailto:contact@nordicfishjewelry.com" className="contact-link">
-                  X@MAIL.COM
-                </a>
-              </p>
-              <p className="contact-item">
-                <span className="contact-label">{t('contact.phone')}</span>{' '}
-                <a href="tel:+358XXXXXXXX" className="contact-link">
-                  +358 XXXX XXXXX
-                </a>
-              </p>
-              <p className="contact-item">
-                <span className="contact-label">{t('contact.businessId')}</span>{' '}
-                <span className="contact-value">Y-XXXXXX</span>
-              </p>
+            <div className="contact-info contact-text-2col">
+              <div className='contact-text-left'>
+                 <p className="contact-item">
+                  <span className="contact-label">{t('contact.email')}</span>{' '}
+                </p>
+                 <p className="contact-item">
+                  <span className="contact-label">{t('contact.phone')}</span>{' '}
+                </p>
+                 <p className="contact-item">
+                  <span className="contact-label">{t('contact.businessId')}</span>{' '}
+                </p>
+
+
+              </div>
+              <div className='contact-text-right'>
+                  <p className="contact-item">
+                   <a href="mailto:contact@nordicfishjewelry.com" className="contact-link">
+                    X@MAIL.COM
+                   </a>
+                  </p>
+                  <p className="contact-item">
+                     <a href="tel:+358XXXXXXXX" className="contact-link">
+                       +358 XXXX XXXXX
+                    </a>
+                  </p>
+                  <p className="contact-item">
+                    <a className="contact-link">Y-XXXXXX</a>
+                  </p>
+              </div>
             </div>
 
             <p className="contact-cta">{t('contact.cta')}</p>
