@@ -11,6 +11,13 @@
   flex: 1;
 } 
 
+/* Content Column */ 
+.content-column {
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Containers */
 .container {
   width: 100%;

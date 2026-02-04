@@ -20,7 +20,7 @@ const Products = () => {
         path={`${currentLang}/products`}
       />
 
-      <section className="section section--full-height">
+      <section className="section section--full-height content-column">
         <div className="container">
           <h1 className="page-title">{t('products.title')}</h1>
           <div className="grid grid--products grid--narrow">

@@ -31,7 +31,7 @@ const Home = () => {
       </section>
 
       {/* CTA Buttons */}
-      <section className="cta-section">
+      <section className="cta-section content-column">
         <div className="cta-section__inner">
           <div className="cta-buttons">
             <Link to={`${currentLang}/products`} className="cta-btn">
@@ -45,14 +45,14 @@ const Home = () => {
       </section>
 
       {/* Brand Statement */}
-      <section className="section">
+      <section className="section content-column">
         <div className="brand-statement">
           <h3 className="brand-statement__text">{t('brandStatement')}</h3>
         </div>
       </section>
 
       {/* Categories Section */}
-      <section className="section">
+      <section className="section content-column">
         <div className="container container--content">
           <h2 className="section-title">{t('categories.title')}</h2>
           <div className="grid grid--products">

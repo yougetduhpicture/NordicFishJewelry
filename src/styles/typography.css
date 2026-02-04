@@ -32,7 +32,7 @@ h6 {
 /* Page Titles */
 .page-title {
   color: var(--color-gold);
-  font-size: 50px;
+  font-size:60px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-align: center;
@@ -41,8 +41,10 @@ h6 {
 
 @media (min-width: 768px) {
 .page-title {
-    font-size: 100px;
-    letter-spacing: 50px;
+    font-size: 90px;
+    letter-spacing: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 
   }
 }
@@ -60,8 +62,8 @@ h6 {
 
 @media (min-width: 768px) {
   .section-title {
-    font-size: 150px;
-    letter-spacing: 0px;
+    font-size: 130px;
+    letter-spacing: 20px;
     text-align: center;
   }
 }
@@ -139,7 +141,7 @@ h6 {
 
 @media (min-width: 768px) {
   .brand-statement__text {
-    font-size: 85px;
+    font-size: 80px;
 
   }
 }
