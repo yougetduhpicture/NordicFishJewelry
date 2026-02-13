@@ -25,17 +25,25 @@ const About = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="section">
+      <section className="section content-column">
         <div className="brand-statement">
           <h6 className="brand-statement__text">{t('about.intro')}</h6>
         </div>
       </section>
 
       {/* Crafting Process Section */}
-      <section className="section">
+      <section className="section content-column">
         <div className="container">
           <h2 className="section-title">{t('about.craftingProcess.title')}</h2>
-          <div className="grid grid--two-col">
+            <div>
+              <img
+                src="/images/about/workshop.jpg"
+                alt="Workshop"
+                className="about-image"
+                loading="lazy"
+              />
+            </div>
+          <div className="grid grid--two-col content-column">
             <div>
               <ol className="about-steps">
                 <li className="about-step">
@@ -51,24 +59,18 @@ const About = () => {
                   <span className="about-step__text">{t('about.craftingProcess.step3')}</span>
                 </li>
               </ol>
-              <p className="about-text">{t('about.craftingProcess.description')}</p>
             </div>
-            <div>
-              <img
-                src="/images/about/workshop.jpg"
-                alt="Workshop"
-                className="about-image"
-                loading="lazy"
-              />
+             <div>
+              <p className="about-text">{t('about.craftingProcess.description')}</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Sustainability Section */}
-      <section className="section">
+      <section className="section content-column">
         <h2 className="section-title">{t('about.sustainability.title')}</h2>
-        <div className="about-intro">
+        <div className="about-intro about-column">
           
           <p className="about-text">{t('about.sustainability.text')}</p>
         </div>
@@ -78,7 +80,7 @@ const About = () => {
       <section className="section">
         <div className="container">
           <h2 className="section-title">{t('about.whoAreWe.title')}</h2>
-          <div className="team-grid">
+          <div className="team-grid content-column">
             {/* Anne */}
             <div className="team-member">
               <div className="team-member__image-wrapper">

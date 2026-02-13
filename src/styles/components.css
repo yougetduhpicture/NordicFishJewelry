@@ -524,7 +524,7 @@
 
 @media (min-width: 768px) {
   .hero--overlay {
-    height: 80vh;
+    height: 40vh;
   }
 }
 
@@ -554,16 +554,17 @@
 .hero__title {
   color: var(--color-white);
   font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 0.05em;
+  font-weight: 500;
+  letter-spacing: 0.09em;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 @media (min-width: 768px) {
   .hero__title {
-    font-size: 250px;
-    margin-top: 250px;
+    font-size: 300px;
+    margin-top: 187px;
+    color: var(--color-cream);
   }
 }
 
@@ -594,11 +595,6 @@
 /* ==================== */
 /* ABOUT PAGE           */
 /* ==================== */
-.about-intro {
-  max-width: 768px;
-  margin: 0 auto;
-  text-align: center;
-}
 
 .about-section-title {
   color: var(--color-gold);
@@ -615,14 +611,14 @@
 }
 
 .about-text {
-  color: var(--color-navy);
+  color: var(--color-gold);
   font-size: 16px;
   line-height: 1.7;
 }
 
 @media (min-width: 768px) {
   .about-text {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -637,6 +633,7 @@
 /* About Steps */
 .about-steps {
   margin-bottom: 24px;
+  
 }
 
 .about-step {
@@ -649,11 +646,14 @@
 .about-step__number {
   color: var(--color-gold);
   font-weight: 700;
+  font-size: 50px;
 }
 
 .about-step__text {
-  color: var(--color-navy);
+  color: var(--color-gold);
   letter-spacing: 0.05em;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 /* Team Section */
@@ -661,7 +661,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 48px;
-  max-width: 1024px;
+
   margin: 0 auto;
 }
 
@@ -679,7 +679,8 @@
   width: 192px;
   height: 256px;
   margin: 0 auto 24px;
-  border: 4px solid var(--color-navy);
+  border: 4px solid var(--color-gold);
+  border-radius: 3%;
   overflow: hidden;
 }
 
@@ -697,14 +698,14 @@
 }
 
 .team-member__role {
-  color: var(--color-navy);
+  color: var(--color-gold);
   font-size: 14px;
   letter-spacing: 0.1em;
   margin-bottom: 16px;
 }
 
 .team-member__bio {
-  color: var(--color-navy);
+  color: var(--color-gold);
   font-size: 16px;
   line-height: 1.7;
   text-align: left;

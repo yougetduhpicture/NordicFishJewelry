@@ -1,22 +1,5 @@
 /* Typography Styles */
 
-/* Fonts */
-@font-face {
-  font-family: 'Glacial Indifference';
-  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Glacial Indifference';
-  src: url('/fonts/GlacialIndifference-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Headings */
 h1,
 h2,
@@ -37,7 +20,6 @@ h6 {
   letter-spacing: 0.15em;
   text-align: center;
   margin-bottom: 48px;
-
 }
 
 @media (min-width: 768px) {
@@ -54,9 +36,9 @@ h6 {
 /* Section Titles */
 .section-title {
   color: var(--color-gold);
-  font-size: 100px;
+  font-size: 95px;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -64,27 +46,10 @@ h6 {
 
 @media (min-width: 768px) {
   .section-title {
-    font-size: 130px;
+    font-size: 100x;
     letter-spacing: 20px;
     text-align: center;
   }
-}
-
-/* Text Colors */
-.text-navy {
-  color: var(--color-navy);
-}
-
-.text-cream {
-  color: var(--color-cream);
-}
-
-.text-gold {
-  color: var(--color-gold);
-}
-
-.text-white {
-  color: var(--color-white);
 }
 
 /* Text Alignment */
@@ -94,6 +59,7 @@ h6 {
 
 /* Body Text */
 .body-text {
+  color: var(--color-gold);
   font-size: 16px;
   line-height: 1.7;
 }
@@ -107,6 +73,7 @@ h6 {
 .body-text--large {
   font-size: 18px;
   line-height: 1.7;
+  color: var(--color-gold);
 }
 
 @media (min-width: 768px) {
@@ -134,8 +101,8 @@ h6 {
 .brand-statement__text {
   color: var(--color-gold);
   font-size: 9 60px;
-  line-height: 0.9;
-  letter-spacing: 1px;
+  line-height: 1.5;
+  letter-spacing: 4px;
   text-align: left;
   text-transform: uppercase;
 
@@ -143,7 +110,41 @@ h6 {
 
 @media (min-width: 768px) {
   .brand-statement__text {
-    font-size: 80px;
+    font-size: 70px;
 
   }
+}
+
+/* Text Colors */
+.text-navy {
+  color: var(--color-navy);
+}
+
+.text-cream {
+  color: var(--color-cream);
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }

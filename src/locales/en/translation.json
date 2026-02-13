@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "HOME",
-    "products": "PRODUCTS",
+    "products": "COLLECTIONS",
     "about": "ABOUT",
     "contact": "CONTACT"
   },
@@ -13,9 +13,9 @@
     "collections": "TO OUR COLLECTIONS",
     "story": "LEARN ABOUT OUR STORY"
   },
-  "brandStatement": "Born from the northern seas and Finnish craftsmanship, Nordic Fish Jewelry brings timeless design inspired by the textures of nature and the beauty of imperfection.",
+  "brandStatement": "Born from the northern seas and Finnish craftsmanship, Nordic Fish Jewelry delivers timeless design inspired by the textures of nature and the beauty of imperfection.",
   "categories": {
-    "title": "COLLECTIONS",
+    "title": "OUR COLLECTIONS",
     "rings": "RINGS",
     "cufflinks": "CUFF LINKS",
     "necklaces": "NECKLACES"
