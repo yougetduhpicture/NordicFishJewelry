@@ -32,7 +32,7 @@ const Home = () => {
 
       {/* CTA Buttons */}
       <section className="cta-section content-column">
-        <div className="cta-section__inner">
+        <div className="cta-section__inner ">
           <div className="cta-buttons">
             <Link to={`${currentLang}/products`} className="cta-btn">
               {t('cta.collections')}

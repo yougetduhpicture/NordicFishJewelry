@@ -90,7 +90,7 @@ h6 {
   font-size: 100px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 2000px) {
   .brand-statement {
     padding: 0 0px;
     width: 66%;
@@ -100,8 +100,8 @@ h6 {
 
 .brand-statement__text {
   color: var(--color-gold);
-  font-size: 9 60px;
-  line-height: 1.5;
+  font-size: 96px;
+  line-height: 1.2;
   letter-spacing: 4px;
   text-align: left;
   text-transform: uppercase;

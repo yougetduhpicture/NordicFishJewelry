@@ -12,8 +12,13 @@
 } 
 
 /* Content Column */ 
-.content-column {
+@media screen and (min-width: 2000px) {
+  .content-column {
   width: 66%;
+}
+}
+.content-column {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -21,6 +26,11 @@
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 2000px) {
+  .about-column {
+  width: 66%;
+}
 }
 
 /* Containers */
