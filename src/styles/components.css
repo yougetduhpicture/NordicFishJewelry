@@ -470,31 +470,7 @@
   width: auto;
 }
 
-/* CTA Buttons (Home page) */
-.cta-buttons {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
 
-.cta-btn {
-  flex: 1;
-  aspect-ratio: 1;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 16px;
-  background-color: var(--color-gold);
-  color: var(--color-cream);
-  font-size: 32px;
-  letter-spacing: 0.05em;
-  transition: opacity var(--transition-fast);
-  height: 40vh;
-}
-
-.cta-btn:hover {
-  opacity: 0.8;
-}
 
 /* ==================== */
 /* HERO SECTIONS        */
@@ -503,6 +479,16 @@
   width: 100%;
   height: 50vh;
   overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    height: 30vh;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 25vh;
+  }
 }
 
 .hero__image {
@@ -525,9 +511,9 @@
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .hero--overlay {
-    height: 40vh;
+    height: 20vh;
   }
 }
 
@@ -591,7 +577,99 @@
   }
 }
 
+/* CTA Buttons (Home page) */
+.cta-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
 
+.cta-btn {
+  flex: 1;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 16px;
+  background-color: var(--color-gold);
+  color: var(--color-cream);
+  font-size: 32px;
+  letter-spacing: 0.05em;
+  transition: opacity var(--transition-fast);
+  height: 40vh;
+}
+@media screen and (max-width: 1024px) {
+  .cta-btn {
+    font-size: 25px;
+    height: 30vh;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cta-btn {
+    font-size: 18px;
+    height: 20vh;
+    width: 40%;
+  }
+}
+
+.cta-btn:hover {
+  opacity: 0.8;
+}
+
+/* Brand Statement */
+@media screen and (min-width: 1024px) {
+  .brand-statement {
+      margin: 0 auto;
+      padding: 0 16px;
+}
+}
+
+@media (min-width: 2000px) {
+  .brand-statement {
+    height: 100%;
+    padding: 0 0px;
+    width: 66%;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .brand-statement {
+      margin: 0 auto;
+      padding: 0 0px;
+}
+}
+
+.brand-statement__text {
+  color: var(--color-gold);
+  font-size: 70px;
+  line-height: 1.2;
+  letter-spacing: 4px;
+  text-align: left;
+  text-transform: uppercase;
+
+}
+
+@media (max-width: 1024px) {
+  .brand-statement__text {
+    font-size: 50px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-statement__text {
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 672px) {
+  .brand-statement__text {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
 
 /* ==================== */
 /* ABOUT PAGE           */

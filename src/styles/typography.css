@@ -15,7 +15,7 @@ h6 {
 /* Page Titles */
 .page-title {
   color: var(--color-gold);
-  font-size:60px;
+  font-size: 35px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-align: center;
@@ -36,7 +36,7 @@ h6 {
 /* Section Titles */
 .section-title {
   color: var(--color-gold);
-  font-size: 95px;
+  font-size: 80px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-align: center;
@@ -44,11 +44,23 @@ h6 {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .section-title {
     font-size: 100x;
     letter-spacing: 20px;
     text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 60px;
+  }
+}
+@media (max-width: 672px) {
+  .section-title {
+    font-size: 40px;
+    letter-spacing: 3px;
   }
 }
 
@@ -82,38 +94,7 @@ h6 {
   }
 }
 
-/* Brand Statement */
-.brand-statement {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 0 16px;
-  font-size: 100px;
-}
 
-@media (min-width: 2000px) {
-  .brand-statement {
-    padding: 0 0px;
-    width: 66%;
-    align-content: center;
-  }
-}
-
-.brand-statement__text {
-  color: var(--color-gold);
-  font-size: 96px;
-  line-height: 1.2;
-  letter-spacing: 4px;
-  text-align: left;
-  text-transform: uppercase;
-
-}
-
-@media (min-width: 768px) {
-  .brand-statement__text {
-    font-size: 70px;
-
-  }
-}
 
 /* Text Colors */
 .text-navy {
