@@ -424,7 +424,13 @@
 
 @media (min-width: 768px) {
   .category-card__title {
-    font-size: 28px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 672px) {
+  .category-card__title {
+    font-size: 18px;
   }
 }
 
