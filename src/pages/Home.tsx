@@ -52,7 +52,7 @@ const Home = () => {
       </section>
 
       {/* Categories Section */}
-      <section className="section">
+      <section className="section content-column">
         <div className="">
           <h2 className="section-title">{t('categories.title')}</h2>
           <div className="grid grid--products">

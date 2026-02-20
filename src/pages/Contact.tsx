@@ -14,7 +14,7 @@ const Contact = () => {
       />
 
       <section className="section section--full-height">
-        <div className="container">
+        <div className="container content-column">
           {/* Contact Info Section */}
           <div className="contact-header">
             <h1 className="page-title">{t('contact.title')}</h1>
@@ -54,7 +54,7 @@ const Contact = () => {
           </div>
 
           {/* Visit Us Section */}
-          <div className="contact-visit">
+          <div className="contact-visit content-column">
             <h2 className="contact-map__title">{t('contact.visitUs.title')}</h2>
 
             {/* Map */}
