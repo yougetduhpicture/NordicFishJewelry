@@ -839,6 +839,11 @@
   font-weight: 700;
   letter-spacing: 0.05em;
 }
+@media screen and (max-width: 642px) {
+  .contact-label {
+    font-size: 20px;
+  }
+}
 
 .contact-link {
   color: var(--color-gold);
@@ -846,6 +851,11 @@
   transition: opacity var(--transition-fast);
 }
 
+@media screen and (max-width: 642px) {
+  .contact-link {
+    font-size: 20px;
+  }
+}
 .contact-link:hover {
   text-decoration: underline;
 }
