@@ -61,7 +61,7 @@ const Contact = () => {
             <div className="contact-map">
               <div className="contact-map__wrapper">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.8876159392868!2d24.96893!3d60.29123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df5c1f5555555%3A0x5555555555555555!2sL%C3%A4hdepuistontie%2017%2C%2001230%20Vantaa%2C%20Finland!5e0!3m2!1sen!2sfi!4v1700000000000!5m2!1sen!2sfi"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.8876159392868!2d24.96893!3d60.29123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df5c1f5555555%3A0x5555555555555555!2sL%C3%A4hdepuistontie%2017%2C%2001230%20Vantaa%2C%20Finland!5e0!3m2!1sen!2sfi!4v1700000000000!5m2!1sen!2sfi&z=8"
                   className="contact-map__iframe"
                   allowFullScreen
                   loading="lazy"
