@@ -14,15 +14,15 @@ const About = () => {
       />
 
       {/* Hero Section */}
-      <section className="hero hero--overlay">
+      <header className="hero hero--overlay">
         <div className="hero__bg">
           <img src="/images/placeholder.jpg" alt="Our Jewelry" className="hero__bg-image" />
         </div>
         <div className="hero__overlay" >
-        <h1 className="hero__title">{t('about.heroTitle')}</h1>
+          <h1 className="hero__title">{t('about.heroTitle')}</h1>
         </div>
 
-      </section>
+      </header>
 
       {/* Intro Section */}
       <section className="section content-column">
@@ -82,7 +82,7 @@ const About = () => {
           <h2 className="section-title">{t('about.whoAreWe.title')}</h2>
           <div className="team-grid content-column">
             {/* Anne */}
-            <div className="team-member">
+            <article className="team-member">
               <div className="team-member__image-wrapper">
                 <img
                   src="/images/about/anne.jpg"
@@ -93,10 +93,10 @@ const About = () => {
               </div>
               <h3 className="team-member__name">{t('about.whoAreWe.anne.name')}</h3>
               <p className="team-member__bio">{t('about.whoAreWe.anne.bio')}</p>
-            </div>
+            </article>
 
             {/* Arska */}
-            <div className="team-member">
+            <article className="team-member">
               <div className="team-member__image-wrapper team-member__image-wrapper">
                 <img
                   src="/images/about/arska.jpg"
@@ -107,7 +107,7 @@ const About = () => {
               </div>
               <h3 className="team-member__name">{t('about.whoAreWe.arska.name')}</h3>
               <p className="team-member__bio">{t('about.whoAreWe.arska.bio')}</p>
-            </div>
+            </article>
           </div>
         </div>
       </section>
