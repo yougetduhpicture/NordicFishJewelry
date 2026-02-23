@@ -33,6 +33,7 @@ const Navbar = () => {
 
   return (
     <>
+    <header>
       <nav className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
         <div className="navbar__inner">
           {/* Logo */}
@@ -81,6 +82,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+    </header>
 
       {/* Mobile Menu */}
       <HamburgerMenu
