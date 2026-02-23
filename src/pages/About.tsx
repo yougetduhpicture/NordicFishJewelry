@@ -14,7 +14,7 @@ const About = () => {
       />
 
       {/* Hero Section */}
-      <header className="hero hero--overlay">
+      <section className="hero hero--overlay">
         <div className="hero__bg">
           <img src="/images/placeholder.jpg" alt="Our Jewelry" className="hero__bg-image" />
         </div>
@@ -22,7 +22,7 @@ const About = () => {
           <h1 className="hero__title">{t('about.heroTitle')}</h1>
         </div>
 
-      </header>
+      </section>
 
       {/* Intro Section */}
       <section className="section content-column">
