@@ -10,9 +10,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
   const productName = i18n.language === 'fi' ? product.nameFi : product.name;
 
   return (
-    <div className="card">
+    <article className="card">
       {/* Image */}
-      <div className="card__image-wrapper">
+      <figure className="card__image-wrapper">
         <img
           src={product.image}
           alt={productName}
@@ -23,7 +23,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
             target.src = '/images/placeholder.jpg';
           }}
         />
-      </div>
+      </figure>
 
       {/* Content */}
       <div className="card__content">
@@ -37,7 +37,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           {t('products.viewOnEtsy')}
         </a>
       </div>
-    </div>
+    </article>
   );
 };
 
