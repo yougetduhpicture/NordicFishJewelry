@@ -12,6 +12,10 @@ h6 {
   letter-spacing: 0.1em;
 }
 
+address {
+  font-style: normal;
+}
+
 /* Page Titles */
 .page-title {
   color: var(--color-gold);

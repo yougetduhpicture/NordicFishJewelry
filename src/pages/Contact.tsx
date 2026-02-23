@@ -16,10 +16,10 @@ const Contact = () => {
       <section className="section section--full-height">
         <div className="container content-column">
           {/* Contact Info Section */}
-          <div className="contact-header">
+          <main className="contact-header">
             <h1 className="page-title">{t('contact.title')}</h1>
 
-            <div className="contact-info contact-text-2col">
+            <address className="contact-info contact-text-2col">
               <div className='contact-text-left'>
                  <p className="contact-item">
                   <span className="contact-label">{t('contact.email')}</span>{' '}
@@ -48,10 +48,10 @@ const Contact = () => {
                     <a className="contact-link">Y-XXXXXX</a>
                   </p>
               </div>
-            </div>
+            </address>
 
             <p className="contact-cta">{t('contact.cta')}</p>
-          </div>
+          </main>
 
           {/* Visit Us Section */}
           <div className="contact-visit content-column">
