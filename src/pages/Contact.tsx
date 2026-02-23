@@ -16,7 +16,7 @@ const Contact = () => {
       <section className="section section--full-height">
         <div className="container content-column">
           {/* Contact Info Section */}
-          <main className="contact-header">
+          <section className="contact-header">
             <h1 className="page-title">{t('contact.title')}</h1>
 
             <address className="contact-info contact-text-2col">
@@ -51,7 +51,7 @@ const Contact = () => {
             </address>
 
             <p className="contact-cta">{t('contact.cta')}</p>
-          </main>
+          </section>
 
           {/* Visit Us Section */}
           <div className="contact-visit content-column">
