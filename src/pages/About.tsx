@@ -27,7 +27,7 @@ const About = () => {
       {/* Intro Section */}
       <section className="section content-column">
         <div className="brand-statement">
-          <h6 className="brand-statement__text">{t('about.intro')}</h6>
+          <p className="brand-statement__text">{t('about.intro')}</p>
         </div>
       </section>
 

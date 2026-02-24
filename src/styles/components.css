@@ -653,7 +653,8 @@
   letter-spacing: 4px;
   text-align: left;
   text-transform: uppercase;
-
+  font-family: var(--font-family);
+  font-weight: 700;
 }
 
 @media (max-width: 1024px) {
