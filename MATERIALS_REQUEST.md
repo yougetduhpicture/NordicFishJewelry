@@ -1,139 +1,146 @@
-# Nordic Fish Jewelry - Client Materials Request
+# Nordic Fish Jewelry - Materiaalilista
 
-This document lists all content and assets required from the client before the website can go live.
+Tämä dokumentti listaa tarvittavat kuvat linkit, tiedot yms. Joita tarvitaan nettisivun tekemiseen. Olen tehnyt nettisivusta alustavaa versiota ns. placeholder materiaaleilla, jotka materiaalien toimituksen jälkeen vaihdan toivottuihin materiaaleihin. Pistän sen pystyyn piakkoin ja lähetän teille linkin, jotta saatte kuvaa millaiseksi sivu on muotoutumassa.
 
-## Required Images
+Yleisiä ohjeita:
 
-### Hero Section (Home Page)
-- [ ] **Hero Image Left** - Landscape photo (1920x1080px) - Nordic scenery/nature
-- [ ] **Hero Image Right** - Landscape photo (1920x1080px) - Finnish nature/fishing
+ Hero/kansikuvat mahdollisimman kompressoimattomina JPG muodossa. Nämä tulevat olemaan todella isoja isoilla näytöillä, eli kompressio ei ole toivottua parhaimman lopputuloksen aikaan saamiseksi.
 
-### Category Images (Products Page)
-- [ ] **Rings Category** - Square photo (800x800px) - Showcase of ring products
-- [ ] **Cuff Links Category** - Square photo (800x800px) - Showcase of cufflink products
-- [ ] **Necklaces Category** - Square photo (800x800px) - Showcase of necklace products
 
-### Product Images
-Format: Square photos (600x600px), WebP preferred
 
-**Rings:**
-- [ ] Individual ring product photos (quantity: __)
+## Kuvat
 
-**Cuff Links:**
-- [ ] Individual cufflink product photos (quantity: __)
+### Hero-kuva(suunnitelman mukaan koostuu kahdesta kuvasta, joiden päällä on teksti.)(Kotisivu)
+Minulla on yhdet versiot näistä, mutta jos löytyy vielä korkeampi resoluutioisia versioita niin olisi hyvä.
+- [ ] **Hero-kuva vasen** - Horisontaalikuva (1920x1080px) - Aamukalaan!
+- [ ] **Hero-kuva oikea** - Horisontaalikuva (1920x1080px) - Aamu
 
-**Necklaces:**
-- [ ] Individual necklace product photos (quantity: __)
+### Tuotekategoria kuvat (tuotteet-sivu)
+- [ ] **Korut** - Neliökuva (800x800px) 
+- [ ] **Asusteet** - Neliökuva (800x800px)
+- [ ] **Sisustus** - Neliökuva (800x800px)
 
-### About Page Images
-- [ ] **Hero Banner** - Wide landscape (1920x600px) - Jewelry pieces display
-- [ ] **Workshop Photo** - Landscape (1600x900px) - Crafting process
-- [ ] **Anne Portrait** - Portrait (600x800px) - Founder photo
-- [ ] **Arska Portrait** - Portrait (600x800px) - Founder photo
+### Alatuotekategoria kuvat (Korut)
+- [ ] **Kaulakorut** - Neliökuva (800x800px) 
+- [ ] **Sormukset** - Neliökuva (800x800px)
+- [ ] **Rannekorut** - Neliökuva (800x800px)
+- [ ] **Korvakorut** - Neliökuva (800x800px)
+
+### Alatuotekategoria kuvat (Rannekorut)
+- [ ] **Nahkarannekorut** - Neliökuva (800x800px)
+- [ ] **Metallirannekorut** - Neliökuva (800x800px)
+
+### Alatuotekategoria kuvat (Asusteet)
+- [ ] **Kalvosinnapit** - Neliökuva (800x800px)
+- [ ] **Solmioneulat** - Neliökuva (800x800px)
+
+
+### Yksittäiset tuotteet
+Formaatti: neliö (600x600px), WebP.
+
+Jos tahdotte panostaa sivun ulkonäköön ottakaa kunkin tuotekategorian kuvat samalla taustalla. Näin saadaan yhtenäinen lookki jokaiselle tuotekategorialle ja käyttäjän on helppo myös tunnistaa kunkin kategorian tuotteet taustan värin mukaan mahdollisella yhteiskompilaatiosivulla.
+
+
+Jokaisesta esille pantavasta tuotteesta tarvitaan:
+
+- [ ] **Tuotteen nimi suomi** 
+- [ ] **Tuotteen nimi englanti** 
+- [ ] **Kuva** 
+- [ ] **Etsy-linkki**
+- [ ] **Hinta** (Itse katsoisin käteväksi nähdä hinnan tuotekortissa, mutta lopullinen päätös on toki teidän)
+
+Kasatkaa tuotteet näissä viiden tiedon seteissä vaikkapa yhdelle docx- tai pdf-tiedostolle
+Eli tiedostoon:
+
+- [ ] **Tuotteen nimi suomi** 
+- [ ] **Tuotteen nimi englanti** 
+- [ ] **Kuvan nimi** 
+- [ ] **Hinta** 
+- [ ] **Etsy-linkki**
+
+Älkää sisällyttäkö itse kuvia docx tai PDF tiedostoon, vaan pistäkää ne omaan kuvat -kansioon.
+
+### Meistä -sivun kuvat
+- [ ] **Hero Banneri** - Laakea horisontaalikuva (1920x600px) - Mahdollisesti koruja
+- [ ] **Pajakuva** - Horisontaalikuva (1600x900px) - Valmistusprosessi
+
+Nämä mielellään samalla siistillä taustalla, jos suinkin mahdollista. Sininen tai vaalean harmaa voisi toimia.
+
+- [ ] **Anne Potretti** - Vertikaalikuva (600x800px)
+- [ ] **Arska Potretti** - Vertikaalikuva (600x800px)
 
 ---
 
-## Required Text Content
+## Teksti
 
-### Home Page
-- [ ] Brand statement (Finnish) - Currently using English placeholder
-- [ ] Review/update English brand statement
+### Koti
+- [ ] Brand statement/Brändijulistus (Suomi + Englanti) - Tällä hetkellä placeholder sivulla.
 
-### About Page
+- [ ] Lehtiartikelit. Kasatkaa linkit + lehtien nimet yhteen, omaan tiedostoon(pdf tai docx). Myös kuvat lehtien logoista parantavat ominaisuuden ulkonäköä.
 
-**Intro Text:**
-- [ ] Finnish translation of intro text
-- [ ] Review/update English intro text
 
-**Crafting Process:**
-- [ ] Detailed description of the crafting process (EN)
-- [ ] Detailed description of the crafting process (FI)
+### Meistä -sivu
 
-**Sustainability:**
-- [ ] Sustainability practices description (EN)
-- [ ] Sustainability practices description (FI)
+**Intro Teksti:**
+- [ ] Suomi
+- [ ] Englanti
 
-**Who Are We - Anne:**
-- [ ] Anne's bio (EN)
-- [ ] Anne's bio (FI)
+**Valmistusprosessi:**
+- [ ] Suomi
+- [ ] Englanti
 
-**Who Are We - Arska:**
-- [ ] Arska's bio (EN)
-- [ ] Arska's bio (FI)
+**Kestävyys:**
+- [ ] Suomi
+- [ ] Englanti
 
-### Product Names
-For each product, provide:
-- [ ] Product name (English)
-- [ ] Product name (Finnish)
+**Filosofiamme- biojättestä aarteeksi:**
+- [ ] Suomi
+- [ ] Englanti
 
----
+**Keitä olemme - Anne:**
+- [ ] Annen bio (EN)
+- [ ] Annen bio (FI)
 
-## Required URLs & Contact Information
+**Keitä olemme - Arska:**
+- [ ] Arskan bio(EN)
+- [ ] Arskan bio(FI)
 
-### Contact Information
-- [ ] **Email Address**: ________________________
-- [ ] **Phone Number**: ________________________
-- [ ] **Business ID (Y-tunnus)**: ________________________
 
-### Social Media URLs
-- [ ] **Etsy Shop URL**: https://www.etsy.com/shop/________________
+## URL:t & yhteystiedot
+
+### Yhteystiedot
+- [ ] **Sähköpostiosoite**: ________________________
+- [ ] **Puhelin numero**: ________________________
+- [ ] **(Y-tunnus)**: ________________________
+
+### URL:t
+- [ ] **Etsy URL**: https://www.etsy.com/shop/________________
 - [ ] **Instagram URL**: https://www.instagram.com/________________
 
-### Individual Product URLs
-For each product listed, provide the direct Etsy listing URL:
-- [ ] Ring 1 Etsy URL: ________________________
-- [ ] Ring 2 Etsy URL: ________________________
-- [ ] Ring 3 Etsy URL: ________________________
-- [ ] Cufflink 1 Etsy URL: ________________________
-- [ ] Cufflink 2 Etsy URL: ________________________
-- [ ] Cufflink 3 Etsy URL: ________________________
-- [ ] Necklace 1 Etsy URL: ________________________
-- [ ] Necklace 2 Etsy URL: ________________________
-- [ ] Necklace 3 Etsy URL: ________________________
-
 ---
 
-## Image Specifications
+## Kuvien speksit
 
-| Image Type | Dimensions | Format | Notes |
+| Kuvan tyyppi | Mitat | Tiedostotyyppi | Erityistä |
 |------------|------------|--------|-------|
-| Hero Images | 1920x1080px | JPG/WebP | High resolution |
-| Category Images | 800x800px | JPG/WebP | Square format |
-| Product Images | 600x600px | JPG/WebP | Square, neutral background preferred |
-| About Hero | 1920x600px | JPG/WebP | Wide banner |
-| Workshop Photo | 1600x900px | JPG/WebP | Landscape |
-| Portrait Photos | 600x800px | JPG/WebP | Portrait orientation |
+| Kotisivun Hero-kuvat | 1920x1080px | JPG | korkea resoluutio |
+| Lehtien logot | koot vaihtelevat | JPG |  |
+| Kategoriakuvat | 800x800px | JPG | neliö |
+| Tuotekuvat | 600x600px | JPG | neliö |
+| Meistä -sivun Hero-kuva | 1920x600px | JPG | Leveä banneri |
+| Paja kuva | 1600x900px | JPG | Horisontaali |
+| Potrettikuvat | 600x800px | JPG | Vertikaali |
 
-**Image Tips:**
-- Images will be compressed to WebP format for web optimization
-- Please provide highest quality originals available
-- Neutral or simple backgrounds work best for product photos
-- Consistent lighting across product photos is preferred
+**Kuvahuomioita:**
+- Kuvat kompressoidaan weboptimisaatiota varten WebP formaattiin, joten mahdollisimman korkealaatuiset originaalikuvat ovat toivottuja.
 
----
-
-## Deployment Information Required
-
-### Domain Configuration
-- [ ] Confirm domain: hostataan.fi
-- [ ] DNS access for CNAME configuration
-
-### Render Account
-- [ ] Add payment method to Render project for custom domain
-- [ ] Verify email for Render notifications
 
 ---
 
-## Timeline Checklist
 
-1. [ ] Receive all images from client
-2. [ ] Receive all text content from client
-3. [ ] Receive all URLs and contact info
-4. [ ] Update website with client content
-5. [ ] Test all pages and links
-6. [ ] Configure custom domain
-7. [ ] Go live!
 
----
+## Vienti domainille hoidetaan erikseen, kun sivu on valmis muilta osin.
 
-**Questions?** Contact Rasmus Ruonakoski
+- Tässä alustava materiaalilista. Näillä pitäisi päästä aika pitkälle. Kyselen sitten lisää, jos jotain tarvitaan. Jos huomaatte, jotain mitä olen unohtanut sisällyttää pistäkää se mukaan tai laittakaa vaikkapa Whatsapp viestiä, niin jutellaan.
+
+- Myös jos jotkin sanat ovat liian hepreaa, kysykää. Yritän suomentaa parhaani mukaan.
