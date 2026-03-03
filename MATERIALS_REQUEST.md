@@ -36,7 +36,7 @@ Minulla on yhdet versiot näistä, mutta jos löytyy vielä korkeampi resoluutio
 
 
 ### Yksittäiset tuotteet
-Formaatti: neliö (600x600px), WebP.
+Formaatti: neliö (600x600px), JPG.
 
 Jos tahdotte panostaa sivun ulkonäköön ottakaa kunkin tuotekategorian kuvat samalla taustalla. Näin saadaan yhtenäinen lookki jokaiselle tuotekategorialle ja käyttäjän on helppo myös tunnistaa kunkin kategorian tuotteet taustan värin mukaan mahdollisella yhteiskompilaatiosivulla.
 
@@ -61,7 +61,7 @@ Eli tiedostoon:
 Älkää sisällyttäkö itse kuvia docx tai PDF tiedostoon, vaan pistäkää ne omaan kuvat -kansioon.
 
 ### Meistä -sivun kuvat
-- [ ] **Hero Banneri** - Laakea horisontaalikuva (1920x600px) - Mahdollisesti koruja
+- [ ] **Hero Banneri** - Laakea horisontaalikuva (1920x600px) - Mahdollisesti koruja?
 - [ ] **Pajakuva** - Horisontaalikuva (1600x900px) - Valmistusprosessi
 
 Nämä mielellään samalla siistillä taustalla, jos suinkin mahdollista. Sininen tai vaalean harmaa voisi toimia.
@@ -124,11 +124,11 @@ Nämä mielellään samalla siistillä taustalla, jos suinkin mahdollista. Sinin
 | Kuvan tyyppi | Mitat | Tiedostotyyppi | Erityistä |
 |------------|------------|--------|-------|
 | Kotisivun Hero-kuvat | 1920x1080px | JPG | korkea resoluutio |
-| Lehtien logot | koot vaihtelevat | JPG |  |
+| Lehtien logot | koot vaihtelevat | JPG | ei pakollinen |
 | Kategoriakuvat | 800x800px | JPG | neliö |
 | Tuotekuvat | 600x600px | JPG | neliö |
 | Meistä -sivun Hero-kuva | 1920x600px | JPG | Leveä banneri |
-| Paja kuva | 1600x900px | JPG | Horisontaali |
+| Pajakuva | 1600x900px | JPG | Horisontaali |
 | Potrettikuvat | 600x800px | JPG | Vertikaali |
 
 **Kuvahuomioita:**
