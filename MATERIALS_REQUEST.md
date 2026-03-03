@@ -134,6 +134,7 @@ Nämä mielellään samalla siistillä taustalla, jos suinkin mahdollista. Sinin
 **Kuvahuomioita:**
 - Kuvat kompressoidaan weboptimisaatiota varten WebP formaattiin, joten mahdollisimman korkealaatuiset originaalikuvat ovat toivottuja.
 
+- Bannereihin ja heroihin voi laittaa muutamia eri vaihtoehtoja, jos löytyy.
 
 ---
 
