@@ -2,18 +2,18 @@
   "nav": {
     "home": "ETUSIVU",
     "products": "KOKOELMAT",
-    "about": "MEISTA",
+    "about": "MEISTÄ",
     "contact": "YHTEYSTIEDOT"
   },
   "hero": {
     "title": "NORDIC FISH JEWELRY",
-    "subtitle": "KASINTEHTYA SUOMALAISTA MUOTOILUA"
+    "subtitle": "KÄSINTEHTYÄ SUOMALAISTA MUOTOILUA"
   },
   "cta": {
     "collections": "TUTUSTU KOKOELMIIMME",
     "story": "LUE TARINAMME"
   },
-  "brandStatement": "Pohjoisilta merilta ja suomalaisesta kasityotaidosta syntynyt Nordic Fish Jewelry tuo ajatonta muotoilua, joka ammentaa inspiraationsa luonnon tekstuureista ja epataydelllisyyden kauneudesta.",
+  "brandStatement": "Pohjoisilta meriltä ja suomalaisesta kasityotaidosta syntynyt Nordic Fish Jewelry tuo ajatonta muotoilua, joka ammentaa inspiraationsa luonnon tekstuureista ja epataydelllisyyden kauneudesta.",
   "categories": {
     "title": "KOKOELMAT",
     "rings": "SORMUKSET",
