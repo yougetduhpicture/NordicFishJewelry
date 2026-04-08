@@ -26,8 +26,10 @@ const About = () => {
 
       {/* Intro Section */}
       <section className="section content-column">
-        <div className="brand-statement">
-          <p className="brand-statement__text">{t('about.intro')}</p>
+        <div className="about-intro">
+          {t('about.intro').split('\n\n').map((paragraph, index) => (
+            <p key={index} className="about-text">{paragraph}</p>
+          ))}
         </div>
       </section>
 
