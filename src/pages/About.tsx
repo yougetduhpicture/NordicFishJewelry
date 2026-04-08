@@ -35,45 +35,16 @@ const About = () => {
 
       {/* Crafting Process Section */}
       <section className="section content-column">
-        <div className="container">
           <h2 className="section-title">{t('about.craftingProcess.title')}</h2>
-            <div>
-              <img
-                src="/images/about/workshop.jpg"
-                alt="Workshop"
-                className="about-image"
-                loading="lazy"
-              />
-            </div>
-          <div className="grid grid--two-col content-column">
-            <div>
-              <ol className="about-steps">
-                <li className="about-step">
-                  <span className="about-step__number">1.</span>
-                  <span className="about-step__text">{t('about.craftingProcess.step1')}</span>
-                </li>
-                <li className="about-step">
-                  <span className="about-step__number">2.</span>
-                  <span className="about-step__text">{t('about.craftingProcess.step2')}</span>
-                </li>
-                <li className="about-step">
-                  <span className="about-step__number">3.</span>
-                  <span className="about-step__text">{t('about.craftingProcess.step3')}</span>
-                </li>
-              </ol>
-            </div>
-             <div>
-              <p className="about-text">{t('about.craftingProcess.description')}</p>
-            </div>
+          <div className="about-intro about-column">
+            <p className="about-text">{t('about.craftingProcess.text')}</p>
           </div>
-        </div>
       </section>
 
       {/* Sustainability Section */}
       <section className="section content-column">
         <h2 className="section-title">{t('about.sustainability.title')}</h2>
         <div className="about-intro about-column">
-          
           <p className="about-text">{t('about.sustainability.text')}</p>
         </div>
       </section>
