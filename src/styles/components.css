@@ -548,17 +548,32 @@
 
 .hero__title {
   color: var(--color-white);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   letter-spacing: 0.09em;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 75px;
 }
-
 @media (min-width: 768px) {
   .hero__title {
-    font-size: 300px;
+    font-size: 90px;
     margin-top: 187px;
+    color: var(--color-cream);
+  }
+}
+
+@media (min-width: 1076px) {
+  .hero__title {
+    font-size: 150px;
+    margin-top: 187px;
+    color: var(--color-cream);
+  }
+}
+
+@media (min-width: 1420px) {
+  .hero__title {
+    font-size: 200px;
+    margin-top: 100px;
     color: var(--color-cream);
   }
 }
