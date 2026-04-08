@@ -3,7 +3,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Layout } from './components';
-import { Home, Products, Rings, Cufflinks, Necklaces, About, Contact } from './pages';
+import { Home, Gallery, About, Contact } from './pages';
 import './i18n';
 
 // Language wrapper component to set language based on URL
@@ -33,10 +33,7 @@ function App() {
             }
           >
             <Route path="/" element={<Home />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/products/rings" element={<Rings />} />
-            <Route path="/products/cufflinks" element={<Cufflinks />} />
-            <Route path="/products/necklaces" element={<Necklaces />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Route>
@@ -51,10 +48,7 @@ function App() {
           >
             <Route path="/fi" element={<Home />} />
             <Route path="/fi/" element={<Home />} />
-            <Route path="/fi/products" element={<Products />} />
-            <Route path="/fi/products/rings" element={<Rings />} />
-            <Route path="/fi/products/cufflinks" element={<Cufflinks />} />
-            <Route path="/fi/products/necklaces" element={<Necklaces />} />
+            <Route path="/fi/gallery" element={<Gallery />} />
             <Route path="/fi/about" element={<About />} />
             <Route path="/fi/contact" element={<Contact />} />
           </Route>
