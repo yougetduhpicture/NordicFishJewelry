@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import type { Product } from '../types';
 
-interface ProductCardProps {
+interface ImageCardProps {
   product: Product;
   onClick: () => void;
 }
 
-const ProductCard = ({ product, onClick }: ProductCardProps) => {
+const ImageCard = ({ product, onClick }: ImageCardProps) => {
   const { i18n } = useTranslation();
   const productName = i18n.language === 'fi' ? product.nameFi : product.name;
 
@@ -31,4 +31,4 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
   );
 };
 
-export default ProductCard;
+export default ImageCard;
