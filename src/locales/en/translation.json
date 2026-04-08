@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "HOME",
-    "products": "COLLECTIONS",
+    "gallery": "GALLERY",
     "about": "ABOUT",
     "contact": "CONTACT"
   },
@@ -10,19 +10,13 @@
     "subtitle": "HANDCRAFTED FINNISH DESIGN"
   },
   "cta": {
-    "collections": "TO OUR COLLECTIONS",
+    "collections": "TO OUR GALLERY",
     "story": "LEARN ABOUT OUR STORY"
   },
   "brandStatement": "Born from the northern seas and Finnish craftsmanship, Nordic Fish Jewelry delivers timeless design inspired by the textures of nature and the beauty of imperfection.",
-  "categories": {
-    "title": "OUR COLLECTIONS",
-    "rings": "RINGS",
-    "cufflinks": "CUFF LINKS",
-    "necklaces": "NECKLACES"
-  },
-  "products": {
-    "title": "OUR COLLECTIONS",
-    "viewOnEtsy": "VIEW ON ETSY"
+  "gallery": {
+    "title": "OUR GALLERY",
+    "visitEtsy": "VISIT OUR ETSY SHOP"
   },
   "about": {
     "heroTitle": "OUR JEWELRY",
@@ -71,21 +65,9 @@
       "title": "Nordic Fish Jewelry | Handcrafted Finnish Design",
       "description": "Unique handcrafted jewelry made from upcycled fish skin. Sustainable Finnish design inspired by Nordic nature."
     },
-    "products": {
-      "title": "Collections | Nordic Fish Jewelry",
-      "description": "Explore our unique collections of handcrafted rings, cuff links, and necklaces made from upcycled fish skin."
-    },
-    "rings": {
-      "title": "Rings | Nordic Fish Jewelry",
-      "description": "Discover our handcrafted fish skin rings. Each piece is unique, sustainable, and made with Finnish craftsmanship."
-    },
-    "cufflinks": {
-      "title": "Cuff Links | Nordic Fish Jewelry",
-      "description": "Elegant handcrafted cuff links made from upcycled fish skin. Perfect for those who appreciate sustainable luxury."
-    },
-    "necklaces": {
-      "title": "Necklaces | Nordic Fish Jewelry",
-      "description": "Beautiful handcrafted necklaces featuring upcycled fish skin. Unique Nordic design meets sustainability."
+    "gallery": {
+      "title": "Gallery | Nordic Fish Jewelry",
+      "description": "Browse our handcrafted jewelry made from upcycled fish skin. Unique rings, cuff links, and necklaces with Finnish craftsmanship."
     },
     "about": {
       "title": "Our Story | Nordic Fish Jewelry",
