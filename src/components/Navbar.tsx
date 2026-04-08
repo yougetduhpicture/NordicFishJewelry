@@ -26,7 +26,7 @@ const Navbar = () => {
 
   const navLinks = [
     { path: `${currentLang}/`, label: t('nav.home') },
-    { path: `${currentLang}/products`, label: t('nav.products') },
+    { path: `${currentLang}/gallery`, label: t('nav.gallery') },
     { path: `${currentLang}/about`, label: t('nav.about') },
     { path: `${currentLang}/contact`, label: t('nav.contact') },
   ];
