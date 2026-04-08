@@ -3,15 +3,15 @@ import type { Product } from '../types';
 
 interface ProductCardProps {
   product: Product;
+  onClick: () => void;
 }
 
-const ProductCard = ({ product }: ProductCardProps) => {
-  const { t, i18n } = useTranslation();
+const ProductCard = ({ product, onClick }: ProductCardProps) => {
+  const { i18n } = useTranslation();
   const productName = i18n.language === 'fi' ? product.nameFi : product.name;
 
   return (
-    <article className="card">
-      {/* Image */}
+    <article className="card card--clickable" onClick={onClick}>
       <figure className="card__image-wrapper">
         <img
           src={product.image}
@@ -24,18 +24,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
           }}
         />
       </figure>
-
-      {/* Content */}
       <div className="card__content">
         <h3 className="card__title">{productName}</h3>
-        <a
-          href={product.etsyUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn--primary"
-        >
-          {t('products.viewOnEtsy')}
-        </a>
       </div>
     </article>
   );
