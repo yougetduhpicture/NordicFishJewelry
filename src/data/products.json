@@ -1,58 +1,124 @@
 {
   "products": [
     {
-      "id": "ring-1",
-      "name": "Fish Scale Ring - Silver",
-      "nameFi": "Kalasuomusormus - Hopea",
-      "image": "/images/products/rings/ring-1.jpg"
+      "id": "pike-pendant-silver",
+      "name": "Pike Pendant - Silver",
+      "nameFi": "Hauki-riipus - Hopea",
+      "image": "/images/products/pike-pendant-silver.jpg"
     },
     {
-      "id": "ring-2",
-      "name": "Nordic Wave Ring",
-      "nameFi": "Pohjolan Aalto Sormus",
-      "image": "/images/products/rings/ring-2.jpg"
+      "id": "pike-pendant-square",
+      "name": "Pike Pendant - Square",
+      "nameFi": "Hauki-riipus - Neliö",
+      "image": "/images/products/pike-pendant-square.jpg"
     },
     {
-      "id": "ring-3",
-      "name": "Ocean Blue Ring",
-      "nameFi": "Meren Sininen Sormus",
-      "image": "/images/products/rings/ring-3.jpg"
+      "id": "pike-pendant-round",
+      "name": "Pike Pendant - Round",
+      "nameFi": "Hauki-riipus - Pyöreä",
+      "image": "/images/products/pike-pendant-round.jpg"
     },
     {
-      "id": "cufflink-1",
-      "name": "Classic Fish Skin Cuff Links",
-      "nameFi": "Klassiset Kalannahka Kalvosinnapit",
-      "image": "/images/products/cufflinks/cufflink-1.jpg"
+      "id": "pike-brooch",
+      "name": "Pike Brooch",
+      "nameFi": "Hauki-rintaneula",
+      "image": "/images/products/pike-brooch.jpg"
     },
     {
-      "id": "cufflink-2",
-      "name": "Golden Salmon Cuff Links",
-      "nameFi": "Kultainen Lohi Kalvosinnapit",
-      "image": "/images/products/cufflinks/cufflink-2.jpg"
+      "id": "salmon-pendant-large",
+      "name": "Salmon Pendant",
+      "nameFi": "Lohi-riipus",
+      "image": "/images/products/salmon-pendant-large.jpg"
     },
     {
-      "id": "cufflink-3",
-      "name": "Trout Scale Cuff Links",
-      "nameFi": "Taimensuomu Kalvosinnapit",
-      "image": "/images/products/cufflinks/cufflink-3.jpg"
+      "id": "salmon-pendant-feather",
+      "name": "Salmon & Feather Pendant",
+      "nameFi": "Lohi & Höyhen -riipus",
+      "image": "/images/products/salmon-pendant-feather.jpg"
     },
     {
-      "id": "necklace-1",
-      "name": "Baltic Sea Pendant",
-      "nameFi": "Itameri Riipus",
-      "image": "/images/products/necklaces/necklace-1.jpg"
+      "id": "salmon-pendant-dotted",
+      "name": "Salmon Pendant - Spotted",
+      "nameFi": "Lohi-riipus - Täplikäs",
+      "image": "/images/products/salmon-pendant-dotted.jpg"
     },
     {
-      "id": "necklace-2",
-      "name": "Northern Light Necklace",
-      "nameFi": "Revontuli Kaulakoru",
-      "image": "/images/products/necklaces/necklace-2.jpg"
+      "id": "salmon-heart-pendant",
+      "name": "Salmon Heart Pendant",
+      "nameFi": "Lohisydän-riipus",
+      "image": "/images/products/salmon-heart-pendant.jpg"
     },
     {
-      "id": "necklace-3",
-      "name": "Finnish Nature Pendant",
-      "nameFi": "Suomen Luonto Riipus",
-      "image": "/images/products/necklaces/necklace-3.jpg"
+      "id": "salmon-bracelet",
+      "name": "Salmon Leather Bracelet",
+      "nameFi": "Lohi-nahkarannekoru",
+      "image": "/images/products/salmon-bracelet.jpg"
+    },
+    {
+      "id": "salmon-suit-set",
+      "name": "Salmon Suit Set",
+      "nameFi": "Lohi-herrasmiessetti",
+      "image": "/images/products/salmon-suit-set.jpg"
+    },
+    {
+      "id": "rainbow-trout-pendant",
+      "name": "Rainbow Trout Pendant",
+      "nameFi": "Kirjolohi-riipus",
+      "image": "/images/products/rainbow-trout-pendant.jpg"
+    },
+    {
+      "id": "rainbow-trout-pendant-warm",
+      "name": "Rainbow Trout Pendant - Amber",
+      "nameFi": "Kirjolohi-riipus - Kullanruskea",
+      "image": "/images/products/rainbow-trout-pendant-warm.jpg"
+    },
+    {
+      "id": "sea-trout-bracelet-gold",
+      "name": "Sea Trout Bracelet - Gold",
+      "nameFi": "Meritaimen-rannekoru - Kulta",
+      "image": "/images/products/sea-trout-bracelet-gold.jpg"
+    },
+    {
+      "id": "sea-trout-tie-pin-gold",
+      "name": "Sea Trout Tie Pin - Gold",
+      "nameFi": "Meritaimen-solmioneula - Kulta",
+      "image": "/images/products/sea-trout-tie-pin-gold.jpg"
+    },
+    {
+      "id": "sea-trout-tie-pin-silver",
+      "name": "Sea Trout Tie Pin - Silver",
+      "nameFi": "Meritaimen-solmioneula - Hopea",
+      "image": "/images/products/sea-trout-tie-pin-silver.jpg"
+    },
+    {
+      "id": "trout-pendant-small",
+      "name": "Trout Pendant - Small",
+      "nameFi": "Taimen-riipus - Pieni",
+      "image": "/images/products/trout-pendant-small.jpg"
+    },
+    {
+      "id": "trout-tie-pin-silver",
+      "name": "Trout Tie Pin - Silver",
+      "nameFi": "Taimen-solmioneula - Hopea",
+      "image": "/images/products/trout-tie-pin-silver.jpg"
+    },
+    {
+      "id": "baltic-herring-earrings-gold",
+      "name": "Baltic Herring Earrings - Gold",
+      "nameFi": "Silakka-korvakorut - Kulta",
+      "image": "/images/products/baltic-herring-earrings-gold.jpg"
+    },
+    {
+      "id": "baltic-herring-earrings-silver",
+      "name": "Baltic Herring Earrings - Silver",
+      "nameFi": "Silakka-korvakorut - Hopea",
+      "image": "/images/products/baltic-herring-earrings-silver.jpg"
+    },
+    {
+      "id": "cod-bangle-silver",
+      "name": "Cod Bangle - Silver",
+      "nameFi": "Turska-rannerengas - Hopea",
+      "image": "/images/products/cod-bangle-silver.jpg"
     }
   ]
 }
