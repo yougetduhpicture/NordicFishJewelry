@@ -120,5 +120,67 @@
       "nameFi": "Turska-rannerengas - Hopea",
       "image": "/images/products/cod-bangle-silver.jpg"
     }
+  ],
+  "abalone": [
+    {
+      "id": "abalone-ring-1",
+      "name": "Abalone Ring",
+      "nameFi": "Abalone-sormus",
+      "image": "/images/abalone/abalone-ring-1.jpg"
+    },
+    {
+      "id": "abalone-fishbone-earrings",
+      "name": "Fishbone Earrings",
+      "nameFi": "Kalaruoto-korvikset",
+      "image": "/images/abalone/fishbone-earrings.jpg"
+    },
+    {
+      "id": "abalone-cufflinks-tie-pin",
+      "name": "Cufflinks & Tie Pin",
+      "nameFi": "Kalvosinnapit & Solmioneula",
+      "image": "/images/abalone/cufflinks-and-tie-pin.jpg"
+    },
+    {
+      "id": "abalone-necklace-1",
+      "name": "Abalone Necklace",
+      "nameFi": "Abalone-kaulakoru",
+      "image": "/images/abalone/necklace-1.jpg"
+    },
+    {
+      "id": "abalone-earring-sets",
+      "name": "Earring Sets",
+      "nameFi": "Korvakoru-setit",
+      "image": "/images/abalone/earring-sets.jpg"
+    },
+    {
+      "id": "abalone-small-earrings",
+      "name": "Small Earrings",
+      "nameFi": "Pikku korvikset",
+      "image": "/images/abalone/small-earrings.jpg"
+    },
+    {
+      "id": "abalone-bracelet",
+      "name": "Abalone Bracelet",
+      "nameFi": "Abalone-ranneke",
+      "image": "/images/abalone/bracelet.jpg"
+    },
+    {
+      "id": "abalone-bangles",
+      "name": "Abalone Bangles",
+      "nameFi": "Abalone-rannerenkaat",
+      "image": "/images/abalone/bangles.jpg"
+    },
+    {
+      "id": "abalone-rings-2",
+      "name": "Abalone Rings",
+      "nameFi": "Abalone-sormukset",
+      "image": "/images/abalone/rings-2.jpg"
+    },
+    {
+      "id": "abalone-heart-pendant",
+      "name": "Abalone Heart Pendant",
+      "nameFi": "Abalone-sydänriipus",
+      "image": "/images/abalone/heart-pendant.jpg"
+    }
   ]
 }

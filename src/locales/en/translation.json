@@ -10,12 +10,14 @@
     "subtitle": "HANDCRAFTED FINNISH DESIGN"
   },
   "cta": {
-    "collections": "TO OUR GALLERY",
+    "collections": "TO GALLERY",
     "story": "LEARN ABOUT OUR STORY"
   },
   "brandStatement": "Born from the northern seas and Finnish craftsmanship, Nordic Fish Jewelry delivers timeless design inspired by the textures of nature and the beauty of imperfection.",
   "gallery": {
-    "title": "OUR GALLERY",
+    "title": "GALLERY",
+    "jewelryHeading": "JEWELRY",
+    "abaloneHeading": "ABALONE SERIES",
     "visitEtsy": "VISIT OUR ETSY SHOP"
   },
   "about": {

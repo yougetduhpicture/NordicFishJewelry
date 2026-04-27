@@ -25,8 +25,22 @@ const Gallery = () => {
       <Carousel />
 
       <section className="section content-column">
+        <h2 className="section-title">{t('gallery.jewelryHeading')}</h2>
         <div className="grid grid--products">
           {productsData.products.map((product) => (
+            <ImageCard
+              key={product.id}
+              product={product as Product}
+              onClick={() => setSelected(product as Product)}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="section content-column">
+        <h2 className="section-title">{t('gallery.abaloneHeading')}</h2>
+        <div className="grid grid--products">
+          {productsData.abalone.map((product) => (
             <ImageCard
               key={product.id}
               product={product as Product}
