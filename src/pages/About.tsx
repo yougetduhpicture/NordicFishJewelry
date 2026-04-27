@@ -16,7 +16,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="hero hero--overlay">
         <div className="hero__bg">
-          <img src="/images/placeholder.jpg" alt="Our Jewelry" className="hero__bg-image" />
+          <img src="/images/about/banner.jpg" alt="Our Jewelry" className="hero__bg-image" />
         </div>
         <div className="hero__overlay" >
           <h1 className="hero__title">{t('about.heroTitle')}</h1>
