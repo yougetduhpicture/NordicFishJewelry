@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ImageCard, Lightbox, SEO } from '../components';
+import { Carousel, ImageCard, Lightbox, SEO } from '../components';
 import { ETSY_SHOP_URL } from '../config';
 import productsData from '../data/products.json';
 import type { Product } from '../types';
@@ -20,6 +20,11 @@ const Gallery = () => {
 
       <section className="section content-column">
         <h1 className="section-title">{t('gallery.title')}</h1>
+      </section>
+
+      <Carousel />
+
+      <section className="section content-column">
         <div className="grid grid--products">
           {productsData.products.map((product) => (
             <ImageCard

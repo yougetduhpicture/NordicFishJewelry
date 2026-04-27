@@ -6,3 +6,4 @@ export { default as HamburgerMenu } from './HamburgerMenu';
 export { default as Lightbox } from './Lightbox';
 export { default as ImageCard } from './ImageCard';
 export { default as SEO } from './SEO';
+export { default as Carousel } from './Carousel';
