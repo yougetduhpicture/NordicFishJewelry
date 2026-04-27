@@ -21,6 +21,24 @@ const Footer = () => {
               <span className="footer__etsy-text">Etsy</span>
             </a>
 
+            {/* Facebook */}
+            <a
+              href="https://www.facebook.com/share/1AJBfDWe7d/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer__social-link footer__social-link--facebook"
+              aria-label="Follow us on Facebook"
+            >
+              <svg
+                className="footer__social-icon"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+              </svg>
+            </a>
+
             {/* Instagram */}
             <a
               href="https://www.instagram.com/nordicfishjewelry"
