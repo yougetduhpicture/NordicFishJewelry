@@ -14,18 +14,15 @@ const About = () => {
       />
 
       {/* Hero Section */}
-      <section className="hero hero--overlay">
+      <section className="hero">
         <div className="hero__bg">
           <img src="/images/about/banner.jpg" alt="Our Jewelry" className="hero__bg-image" />
         </div>
-        <div className="hero__overlay" >
-          <h1 className="hero__title">{t('about.heroTitle')}</h1>
-        </div>
-
       </section>
 
       {/* Intro Section */}
       <section className="section content-column">
+        <h1 className="section-title">{t('about.heroTitle')}</h1>
         <div className="about-intro about-column">
           {t('about.intro').split('\n\n').map((paragraph, index) => (
             <p key={index} className="about-text">{paragraph}</p>
