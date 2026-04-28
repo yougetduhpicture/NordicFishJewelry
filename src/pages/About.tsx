@@ -36,6 +36,12 @@ const About = () => {
           <div className="about-intro about-column">
             <p className="about-text">{t('about.craftingProcess.text')}</p>
           </div>
+          <img
+            src="/images/about/anne-korupajalla.jpg"
+            alt="Anne working in the jewelry workshop"
+            className="about-workshop-image"
+            loading="lazy"
+          />
       </section>
 
       {/* Sustainability Section */}

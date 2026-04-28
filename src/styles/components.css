@@ -732,6 +732,12 @@
   }
 }
 
+.about-workshop-image {
+  width: 100%;
+  margin-top: 40px;
+  object-fit: cover;
+}
+
 .about-image {
   width: 100%;
   height: 100%;
